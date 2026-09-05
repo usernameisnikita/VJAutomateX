@@ -19,7 +19,7 @@ export default function NotFound() {
                 width: '600px',
                 height: '600px',
                 borderRadius: '50%',
-                background: 'radial-gradient(circle, rgba(0,212,255,0.06), transparent 70%)',
+                background: 'radial-gradient(circle, rgba(0,102,255,0.06), transparent 70%)',
                 top: '50%',
                 left: '50%',
                 transform: 'translate(-50%,-50%)',

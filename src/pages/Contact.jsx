@@ -69,7 +69,7 @@ export default function Contact() {
                                     <CheckCircle size={56} className="success-icon" />
                                     <h3 className="success-title">Message Received!</h3>
                                     <p className="success-text">
-                                        Thank you for reaching out. A VJAutomateX consultant will get back to you within 1 business day.
+                                        Thank you for reaching out. A VJ Digifin consultant will get back to you within 1 business day.
                                     </p>
                                     <button className="btn btn-outline" onClick={() => { setSubmitted(false); setForm({ name: '', email: '', company: '', service: '', message: '' }) }}>
                                         Send Another Message
@@ -115,7 +115,7 @@ export default function Contact() {
                                                     id="company"
                                                     name="company"
                                                     type="text"
-                                                    placeholder="VJAutomateX Inc."
+                                                    placeholder="VJ Digifin Inc."
                                                     value={form.company}
                                                     onChange={handleChange}
                                                 />
@@ -157,7 +157,7 @@ export default function Contact() {
                         <div className="contact-info-col">
                             <div className="contact-info-cards">
                                 {[
-                                    { icon: Mail, title: 'Email Us', lines: ['info@vjautomatex.com', 'support@vjautomatex.com'], href: 'mailto:info@vjautomatex.com' },
+                                    { icon: Mail, title: 'Email Us', lines: ['info@vjdigifin.com', 'support@vjdigifin.com'], href: 'mailto:info@vjdigifin.com' },
                                     { icon: Phone, title: 'Call Us', lines: ['+91 12345 67890', '+91 98765 43210'], href: 'tel:+911234567890' },
                                     { icon: MapPin, title: 'Visit Us', lines: ['Level 12, Nariman Point', 'Mumbai, Maharashtra 400021'], href: '#' },
                                     { icon: Clock, title: 'Business Hours', lines: ['Mon – Fri: 9:00 AM – 7:00 PM IST', 'Sat: 10:00 AM – 3:00 PM IST'], href: null },

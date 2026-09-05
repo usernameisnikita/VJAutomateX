@@ -1,3 +1,4 @@
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { Zap, Linkedin, Twitter, Github, Mail, Phone, MapPin, ArrowRight } from 'lucide-react'
 import './Footer.css'
@@ -32,7 +33,7 @@ export default function Footer() {
                             <Link to="/" className="footer-logo">
                                 <div className="footer-logo-icon"><Zap size={18} /></div>
                                 <span className="footer-logo-text">
-                                    <span className="logo-vj">VJ</span>AutomateX
+                                    <span className="logo-vj">VJ</span> Digifin
                                 </span>
                             </Link>
                             <p className="footer-tagline">
@@ -81,7 +82,7 @@ export default function Footer() {
                             <ul className="footer-contact-list">
                                 <li>
                                     <Mail size={15} className="contact-icon" />
-                                    <a href="mailto:info@vjautomatex.com" className="footer-link-plain">info@vjautomatex.com</a>
+                                    <a href="mailto:info@vjdigifin.com" className="footer-link-plain">info@vjdigifin.com</a>
                                 </li>
                                 <li>
                                     <Phone size={15} className="contact-icon" />
@@ -101,7 +102,7 @@ export default function Footer() {
             <div className="footer-bottom">
                 <div className="container footer-bottom-inner">
                     <p className="footer-copyright">
-                        © {year} VJAutomateX. All rights reserved.
+                        © {year} VJ Digifin. All rights reserved.
                     </p>
                     <div className="footer-bottom-links">
                         <a href="#">Privacy Policy</a>

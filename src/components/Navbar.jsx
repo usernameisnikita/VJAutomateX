@@ -32,7 +32,7 @@ export default function Navbar() {
                         <Zap size={18} />
                     </div>
                     <span className="logo-text">
-                        <span className="logo-vj">VJ</span>AutomateX
+                        <span className="logo-vj">VJ</span> Digifin
                     </span>
                 </Link>
 

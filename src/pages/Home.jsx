@@ -23,8 +23,8 @@ const stats = [
 ]
 
 const testimonials = [
-    { name: 'Rajesh Sharma', role: 'CFO', company: 'FinCore Solutions', rating: 5, text: 'VJAutomateX transformed our financial reporting infrastructure. Their team delivered exceptional results — reducing our close cycle by 40% and improving data accuracy significantly.' },
-    { name: 'Priya Mehta', role: 'CTO', company: 'IndiaBank Digital', rating: 5, text: 'The banking technology team at VJAutomateX helped us launch our digital banking platform 3 months ahead of schedule. Truly outstanding expertise.' },
+    { name: 'Rajesh Sharma', role: 'CFO', company: 'FinCore Solutions', rating: 5, text: 'VJ Digifin transformed our financial reporting infrastructure. Their team delivered exceptional results — reducing our close cycle by 40% and improving data accuracy significantly.' },
+    { name: 'Priya Mehta', role: 'CTO', company: 'IndiaBank Digital', rating: 5, text: 'The banking technology team at VJ Digifin helped us launch our digital banking platform 3 months ahead of schedule. Truly outstanding expertise.' },
     { name: 'Arjun Kapoor', role: 'VP Technology', company: 'TechBridge Corp', rating: 5, text: 'Their IT strategy consulting gave us a clear roadmap for the next 5 years. The cloud migration was seamless, saving us 35% in infrastructure costs.' },
 ]
 
@@ -65,7 +65,7 @@ export default function Home() {
                         <span className="gradient-text-green">Banking</span> &amp; IT
                     </h1>
                     <p className="hero-subtitle">
-                        VJAutomateX delivers transformative consulting solutions that harness the power of technology and strategic insight to drive exponential growth and operational excellence.
+                        VJ Digifin delivers transformative consulting solutions that harness the power of technology and strategic insight to drive exponential growth and operational excellence.
                     </p>
                     <div className="hero-cta">
                         <Link to="/contact" className="btn btn-primary">
@@ -102,10 +102,6 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className="hero-scroll-indicator">
-                    <div className="scroll-dot" />
                 </div>
             </section>
 
@@ -167,7 +163,7 @@ export default function Home() {
             <section className="section why-section">
                 <div className="container why-inner">
                     <div className="why-text">
-                        <div className="badge">Why VJAutomateX</div>
+                        <div className="badge">Why VJ Digifin</div>
                         <h2 className="section-title">The Strategic Advantage That Sets Us Apart</h2>
                         <p className="section-subtitle">
                             We don't just consult — we become your long-term growth partners, embedding ourselves deeply in your business to deliver lasting impact.
@@ -237,7 +233,7 @@ export default function Home() {
                             <div className="badge" style={{ marginBottom: 16 }}>Ready to Transform?</div>
                             <h2 className="cta-title">Let's Build Your Future Together</h2>
                             <p className="cta-subtitle">
-                                Get a free 60-minute consultation with our senior experts and discover how VJAutomateX can accelerate your business growth.
+                                Get a free 60-minute consultation with our senior experts and discover how VJ Digifin can accelerate your business growth.
                             </p>
                             <div className="cta-actions">
                                 <Link to="/contact" className="btn btn-primary">

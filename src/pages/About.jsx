@@ -23,7 +23,7 @@ const milestones = [
     { year: '2015', event: 'Launched IT strategy division; crossed 100 clients' },
     { year: '2018', event: 'Opened offices in Bangalore and Delhi' },
     { year: '2021', event: 'Digital Transformation practice established' },
-    { year: '2024', event: 'XAutomateX rebranded; 500+ clients milestone achieved' },
+    { year: '2024', event: 'Rebranded to VJ Digifin; 500+ clients milestone achieved' },
 ]
 
 export default function About() {
@@ -35,7 +35,7 @@ export default function About() {
                 <div className="page-hero-grid" />
                 <div className="container">
                     <div className="badge">Our Story</div>
-                    <h1 className="page-hero-title">About VJAutomateX</h1>
+                    <h1 className="page-hero-title">About VJ Digifin</h1>
                     <p className="page-hero-subtitle">
                         Born out of a vision to bridge the gap between business strategy and technology execution — we've spent 15+ years helping enterprises across Finance, Banking, and IT thrive in an ever-evolving world.
                     </p>
